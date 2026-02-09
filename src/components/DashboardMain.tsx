@@ -33,7 +33,7 @@ import {
   DashboardStats,
   Task 
 } from './useDashboard';
-
+import wecinemaLogo from "../../public/wecinema.png";
 // Lazy load heavy components for better initial load
 const VelocityChart = lazy(() => import('./VelocityChart'));
 
@@ -874,7 +874,12 @@ const DashboardMain: React.FC = () => {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-3">
               <div className="bg-gradient-to-br from-indigo-600 to-violet-600 p-2 rounded-xl shadow-md">
-                <Film className="w-5 h-5 text-white" />
+               <img
+  src={wecinemaLogo}
+  alt="WeCinema"
+  className="w-5 h-5 object-contain"
+/>
+
               </div>
               <div>
                 <h1 className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
