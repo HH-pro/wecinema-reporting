@@ -42,7 +42,7 @@ import {
   Task,
   TaskStatus
 } from '../components/useDashboard';
-import wecinemaLogo from "../../wecinema.png";
+import wecinemaLogo from "../../../wecinema.png";
 
 // ==========================================
 // CONSTANTS & CONFIGURATION (keep all your existing constants)
