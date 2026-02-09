@@ -1164,7 +1164,7 @@ const App: React.FC = () => {
                           <img
   src={wecinemaLogo}
   alt="WeCinema"
-  className="w-15 h-15 object-contain"
+  className="w-5 h-5 object-contain"
 />
          
               <div>
