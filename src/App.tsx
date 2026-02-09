@@ -44,7 +44,7 @@ import {
   Task,
   TaskStatus
 } from '../src/components/useDashboard';
-import wecinemaLogo from "../../public/wecinema.png";
+import wecinemaLogo from "../../wecinema.png";
 // ==========================================
 // CONSTANTS & CONFIGURATION
 // ==========================================
