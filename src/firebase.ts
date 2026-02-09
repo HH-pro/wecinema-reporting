@@ -22,14 +22,15 @@ import {
 
 // Firebase configuration with validation
 const getFirebaseConfig = () => {
-  const config = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  };
+const config = {
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyAezBH5180SUNhyKS6Si88OqozAnMp38fo",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "wecinema-ccad6.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "wecinema-ccad6",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "wecinema-ccad6.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "586100271287",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:586100271287:web:8d90e0482aa35b87c5c532",
+};
+
 
   // Validate required config in production
   if (import.meta.env.PROD) {
