@@ -885,7 +885,6 @@ const DashboardMain: React.FC = () => {
                 <h1 className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
                   wecinema.co
                 </h1>
-                <p className="text-[10px] text-slate-400 hidden sm:block font-medium">Testing Dashboard</p>
               </div>
             </div>
 
