@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardMain from './DashboardMain';
+import DashboardMain from '../src/components/DashboardMain';
 
 const App: React.FC = () => {
   return <DashboardMain />;
